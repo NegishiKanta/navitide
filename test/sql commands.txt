@@ -1,9 +1,0 @@
-1/10 ~ 3/30
-
-
-
-SELECT * FROM  sample  WHERE (月 >= month1 AND 日 > day1)  AND 月<= month1+1
-
-SELECT * FROM sample WHERE (月 > month1 AND 月 < month2)
-
-SELECT * FROM  sample  WHERE (月 <= month2 AND 日 <= day2)  AND 月 > month2-1
