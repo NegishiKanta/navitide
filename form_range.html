@@ -1,0 +1,168 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<link rel="stylesheet" href="stylesheet/style.css">
+<script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer ></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+</head>
+<body>
+  <nav class="navbar is-success">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/~kanta/shiohigari_app/form_range.html">
+      <span>NAVITIDE</span>
+    </a>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="/~kanta/public_html/shiohigari_app/form_range.html">
+        Home
+      </a>
+      <a class="navbar-item" href="/~kanta/shiohigari_app/about.html">
+        About
+      </a>
+
+    </div>
+  </div>
+
+
+</nav>
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-half">
+
+      <div class="input-form">
+	      <p>潮干狩りに最適な時間帯を検索。</p>
+        <form action="/~kanta/shiohigari_app/cgi-bin/Shio_range_1.cgi" method="GET" >
+	<div class="spot">
+          <p>地名を選択してください :</p>
+        </div>
+        <select name="sp1" style="width:100px;height:20px">
+          <option value="Oarai">Oarai</option>
+          <option value="Kashima">Kashima</option>
+          <option value="Tokyo">Tokyo</option>
+          <option value="Yokosuga">Yokosuga</option>
+        </select><br><br>
+        <div class="caption">
+        月と日にちを入力してください :
+        </div>
+        <br>
+        <select name="month1" required style="width:100px;height:20px">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select> 月
+
+        <select name="day1" required style="width:100px;height:20px">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select> 日
+
+        <br>
+	から
+	<br>
+        <select name="month2" required style="width:100px;height:20px">
+	  <option value="-">--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select> 月
+
+        <select name="day2" required style="width:100px;height:20px">
+	  <option value="-">--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select> 日
+        <br><br>
+  
+
+        <div class="btn">
+        <input type="submit" name="submit" class="button is-warning is-medium" style="width:200px;height:50px"/>
+        </div>
+      </form>
+     </div>
+    </div>
+  </div>
+</div>
+</section>
+<p>!注意 検索結果は潮干狩り推奨時間が6:00~18:00の間である場合のみ表示されます。</p>
+</body>
+</html>

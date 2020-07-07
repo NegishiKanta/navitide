@@ -1,0 +1,141 @@
+
+.navbar-brand > a > span {
+  font-family: "Times New Roman";
+  font-size: 2.0em;
+  margin-left: 40px;
+}
+
+.navbar-end {
+  margin-right: 20px;
+}
+.content {
+  padding-top: 60px;
+  padding-left: 550px;
+}
+body {
+  width: 100%;
+}
+
+
+/* 入力form  */
+input {
+  font-size: 100%;
+}
+
+
+input > date_form {
+  width: 100px;
+  height: 30px;
+}
+
+.spot {
+  text-align:center;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+/*
+.input-form  {
+  margin-left: 50px;
+  margin-right: 500px;
+}
+
+.container{
+  padding: 0.5em 1em;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+*/
+
+.container > .tile > article > .input-form {
+  padding-right: auto;
+  padding-left: auto;
+}
+.container > p {
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.input-form {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 3em 1.55em;
+  color: #5d627b;
+  background: white;
+  background-color: #EEEEEE;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.input-form > p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-bottom: 100px;
+}
+.caption {
+  text-align: center;
+  font-size: 25px;
+}
+
+input[type="submit"] {
+
+  margin-left: 70px;
+
+}
+.btn {
+  margin-right: 15%;
+}
+
+.navbar-link {
+  margin-right: 35px;
+}
+
+.table {
+  width: 50%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.table tbody > tr > td {
+  font-size: 1.5em;
+
+  vertical-align: middle;
+}
+
+.table thead > tr > th {
+
+  text-align: center;
+  vertical-align: middle;
+}
+.table tfoot > tr > th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.description {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.description > h2 {
+  font-size: 1.5em;
+  margin-left: 600px;
+  margin-right: 500px;
+}
+
+.description > h1 {
+  font-size: 2.0em;
+
+}
+
+p {
+  text-align:center;
+}
+
+

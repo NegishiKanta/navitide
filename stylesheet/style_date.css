@@ -1,0 +1,60 @@
+
+body {
+  width: 100%;
+}
+
+.date {
+  font-size: 2.0em;
+  margin-left: 560px;
+  margin-top: 50px;
+
+}
+
+.navbar-brand > a > span {
+  font-family: "Times New Roman";
+  font-size: 2.0em;
+
+}
+
+.navbar-end {
+ 
+}
+
+.spot {
+  text-align:center;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+
+.table > tbody > tr > th {
+  font-size: 1.5em;
+}
+
+.table > tbody > tr > td {
+  font-size: 1.5em;
+}
+
+img {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+figure {
+  padding-top: 4px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 1.5em;
+  text-align: center;
+
+}
